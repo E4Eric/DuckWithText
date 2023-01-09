@@ -1,0 +1,45 @@
+{
+  "imagePath": "./AppServer/GuiAssets/ImageAssets/EclipseDarkIcons.png",
+  "name": "Eclipse Dark",
+  "gridX": 16,
+  "gridY": 16,
+  "IconNames": [
+  	"New",
+  	"Save",
+  	"Save All",
+  	
+  	"Skip All",
+  	"Resume",
+  	"Suspend",
+  	"Terminate",
+  	"Disconnect",
+  	"Step Into",
+  	"Step Over",
+  	"Drop to Frame",
+  	"Use Step Filters",
+  	
+  	"Open Web Browser",
+  	
+  	"Create a new HTML file",
+  	"Create a new JavaScript file",
+  	"Create a new CSS file",
+  	
+  	"Search",
+  	
+  	"Debug",
+  	"Run",
+  	"Run Tool",
+  	
+  	"Next Annotation",
+  	"Previous Annotation",
+  	"Previous Edit Location",
+  	"Next Edit Location",
+  	
+  	"Previous Editor",
+  	"Next Editor",
+  	
+  	"Pin Editor",
+   	"Step Return"
+  	
+  ]
+}

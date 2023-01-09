@@ -1,0 +1,44 @@
+{
+  "imagePath": "test.png",
+  "name": "Test",
+  "Styles": {
+    "App Canvas": {
+       "srcX": 50, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 1, "tm": 1, "rm": 1, "bm": 1,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2
+    },
+    "Menu Bar": {
+       "srcX": 100, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 1, "tm": 1, "rm": 1, "bm": 1,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2
+    },
+    "Menu": {
+       "srcX": 150, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 1, "tm": 1, "rm": 1, "bm": 1,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2
+    },
+    "Menu Item": {
+       "srcX": 200, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 7, "tm": 3, "rm": 3, "bm": 3,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2,
+       "fontSpec": "12px Helvetica, background-color: transparent;"
+    },
+    "Tool Bar": {
+       "srcX": 250, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 1, "tm": 1, "rm": 1, "bm": 1,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2
+    },
+    "Tool Item": {
+       "srcX": 300, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 1, "tm": 1, "rm": 1, "bm": 1,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2,
+       "fontSpec": "24px sans-serif",
+       "color": "red"
+    },
+    "Center Area": {
+       "srcX": 350, "srcY": 50, "srcW": 48, "srcH": 48,
+       "lm": 1, "tm": 1, "rm": 1, "bm": 1,
+       "lw": 2, "th": 2, "rw": 2, "bh": 2
+    }
+  }
+}

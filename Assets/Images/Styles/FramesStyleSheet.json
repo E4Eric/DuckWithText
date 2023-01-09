@@ -1,0 +1,26 @@
+{
+  "imagePath": "FramesStyleSheet.png",
+  "name": "Test Frames",
+  "Styles": {
+    "Transparent Color": {
+       "srcX": 42, "srcY": 27, "srcW": 1, "srcH": 1,
+       "lm": 0, "tm": 0, "rm": 0, "bm": 0,
+       "lw": 0, "th": 0, "rw": 0, "bh": 0
+    },
+    "Outer Frame": {
+       "srcX": 163, "srcY": 23, "srcW": 735, "srcH": 830,
+       "lm": 0, "tm": 0, "rm": 0, "bm": 0,
+       "lw": 172, "th": 178, "rw": 171, "bh": 166
+    },
+    "Main Menu": {
+       "srcX": 1058, "srcY": 24, "srcW": 186, "srcH": 106,
+       "lm": 0, "tm": 0, "rm": 0, "bm": 0,
+       "lw": 8, "th": 9, "rw": 7, "bh": 7
+    },
+    "Main Menu Item": {
+       "srcX": 1292, "srcY": 28, "srcW": 95, "srcH": 31,
+       "lm": 0, "tm": 0, "rm": 0, "bm": 0,
+       "lw": 8, "th": 6, "rw": 8, "bh": 6
+    }
+  }
+}

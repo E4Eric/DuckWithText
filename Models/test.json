@@ -1,0 +1,90 @@
+{
+"appname" : "Dev Gui",
+	"stylePath": "./AppServer/Apps/Styles",
+	"labelPath": "./AppServer/Apps/labels",
+	"actionsPath": "./AppServer/Apps/Actions",
+	"viewsPath": "./AppServer/Apps/Views",
+    "style": "AppBackground",
+    "layout": "panel",
+    "appTitle": "Test UI",
+    "side": "top",
+    "usePercent": 100,
+    "contents": [
+      { "style": "MenuBar", "layout": "tile", "side": "top",  "contents": [
+      		{ "style": "MenuBarItem", "layout": "label", "label": "File", "subMenu": [
+	      		{ "style": "MenuItem", "layout": "label", "label": "New" },
+	      		{ "style": "MenuItem", "layout": "label", "label": "Open File..." },
+	      		{ "style": "MenuItem", "layout": "label", "label": "Open Projects from Fils Systerm..." },
+	      		{ "style": "MenuItem", "layout": "label", "label": "Recent Files >" }
+      		  ] },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Edit" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Source" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Navigate" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Search" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Project" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Run" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Window" },
+      		{ "style": "MenuBarItem", "layout": "label", "label": "Help" }
+      	] },
+      { "style": "MenuBar", "layout": "tile", "side": "top",  "contents": [
+	      { "style": "ToolBar", "layout": "pack", "side": "top",  "contents": [
+	      		{ "style": "ToolItem", "layout": "label", "icon": "New", "tooltip": "New" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Save", "tooltip": "Save" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Save All", "tooltip": "Save All" }
+	      	] },
+	      { "style": "ToolBar", "layout": "pack", "side": "top",  "contents": [
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Skip All", "tooltip": "Skip All" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Resume", "tooltip": "Resume",
+	      			"clickAction": "Run Performance Test"
+	      		},
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Suspend", "tooltip": "Suspend" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Terminate", "tooltip": "Terminate" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Disconnect", "tooltip": "Disconnect" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Step Into", "tooltip": "Step Into" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Step Over", "tooltip": "Step Over" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Step Return", "tooltip": "Step Return" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Drop to Frame", "tooltip": "Drop to Frame" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Use Step Filters", "tooltip": "Use Step Filters" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Open Web Browser", "tooltip": "Open Web Browser" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Create a new HTML file", "tooltip": "Create a new HTML file" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Create a new JavaScript file", "tooltip": "Create a new JavaScript file" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Create a new CSS file", "tooltip": "Create a new CSS file" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Search", "tooltip": "Search" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Debug", "tooltip": "Debug" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Run", "tooltip": "Run" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Run Tool", "tooltip": "Run Tool" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Next Annotation", "tooltip": "Next Annotation" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Previous Annotation", "tooltip": "Previous Annotation" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Previous Edit Location", "tooltip": "Previous Edit Location" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Next Edit Location", "tooltip": "Next Edit Location" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Previous Editor", "tooltip": "Previous Editor" },
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Next Editor", "tooltip": "Next Editor" },
+	      		
+	      		{ "style": "ToolItem", "layout": "label", "icon": "Pin Editor", "tooltip": "Pin Editor" }
+	      	] }
+      	] },
+      { "style": "PartStacks", "layout": "panel", "side": "top", "usePercent": 100, "contents": [
+      		{ "style": "PartStack", "layout": "panel", "side": "left",  "usePercent": 25, "contents": [
+		      { "style": "ToolBar", "layout": "pack", "side": "top",  "contents": [
+		      		{ "style": "ToolItem", "layout": "label", "icon": "New", "tooltip": "New" },
+		      		{ "style": "ToolItem", "layout": "label", "icon": "Save", "tooltip": "Save" },
+		      		{ "style": "ToolItem", "layout": "label", "icon": "Save All", "tooltip": "Save All" }
+		      	] }
+      		]},
+      		{ "style": "PartStack", "layout": "panel", "side": "right",  "usePercent": 25, "contents": [
+		      { "style": "ToolBar", "layout": "pack", "side": "top",  "contents": [
+		      		{ "style": "ToolItem", "layout": "label", "icon": "New", "tooltip": "New" },
+		      		{ "style": "ToolItem", "layout": "label", "icon": "Save", "tooltip": "Save" },
+		      		{ "style": "ToolItem", "layout": "label", "icon": "Save All", "tooltip": "Save All" }
+		      	] }
+      		]}
+      	] }	
+    ]
+  }
+

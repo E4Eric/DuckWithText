@@ -1,0 +1,61 @@
+{
+  "appname" : "Dev Gui",
+  "appTitle": "Test UI",
+
+  "assetDir": "C:/Users/Eric Moffatt/UIRedux/FPGui/Assets",
+  "curStyleSheet": "Eclipse Dark",
+  "style": "App Canvas",
+  "layout": "panel",
+  "renderer": "frame",
+  "side": "top",
+  "percentage": 100,
+  "contents": [
+    { "style": "Menu Bar", "layout": "tile", "renderer": "frame", "side": "top",  "contents": [
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "color: white; font-family: Arial; font-size: 16pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 10pt" }
+        ]
+      },
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 16pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Really Long Name...", "fontSpec": "font-family: Arial; font-size: 54pt" }
+        ]
+      },
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 16pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 54pt" }
+        ]
+      },
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 16pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 54pt" }
+        ]
+      }
+    ]
+    },
+    { "style": "Menu Bar", "layout": "tile", "renderer": "frame", "side": "bottom",  "contents": [
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 54pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 16pt" }
+        ]
+      },
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 54pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 16pt" }
+        ]
+      },
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 54pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 16pt" }
+        ]
+      },
+      { "style": "Tool Bar", "layout": "pack", "renderer": "frame", "side": "top",  "contents": [
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Help Me Please!", "fontSpec": "font-family: Arial; font-size: 54pt" },
+          { "style": "Menu Item", "layout": "label", "renderer": "foo", "label": "Item 2", "fontSpec": "font-family: Arial; font-size: 16pt" }
+        ]
+      }
+    ]
+    }
+    ]
+}
+

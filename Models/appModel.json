@@ -1,0 +1,24 @@
+{
+"appname" : "Dev Gui",
+	"stylePath": "./AppServer/Apps/Styles",
+	"iconPath": "./AppServer/Apps/Icons",
+	"actionsPath": "./AppServer/Apps/Actions",
+	"viewsPath": "./AppServer/Apps/Views",
+    "style": "Window",
+    "layout": "panel",
+    "appTitle": "Development UI",
+    "contents": [
+      { "type": "Trim", "style": "Trim", "side": "top", "layout": "tile",
+        "contents": [
+          { "style": "ToolBar", "layout": "pack", 
+            "contents": [
+              { "style": "ToolItem", "icon": "Debug" },
+              { "style": "ToolItem", "icon": "Save" },
+              { "style": "ToolItem", "icon": "Stop" }
+            ]
+          }
+        ]
+      }
+    ] 
+  }
+

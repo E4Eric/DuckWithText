@@ -1,0 +1,43 @@
+{
+"appname" : "Omni Gui",
+    "type": "Window",
+    "layout": "panel",
+    "shellTitle": "Test Omni UI 2",
+    "shellX": "100", "shellY": "100", "shellWidth": "800", "shellHeight": "600",
+    "assetPath": "GuiAssets",
+    "curSkin": "Testing",
+    "contents": [
+          { "style": "MenuBar", "layout": "pack", "side": "top",
+            "contents": [
+              { "style": "MenuItem", "label": "File" },
+              { "style": "MenuItem", "label": "Edit" },
+              { "style": "MenuItem", "label": "Navigate" },
+              { "style": "MenuItem", "label": "Search" },
+              { "style": "MenuItem", "label": "Project" },
+              { "style": "MenuItem", "label": "Run" },
+              { "style": "MenuItem", "label": "Window" },
+              { "style": "MenuItem", "label": "Help" }
+            ]
+          },
+          { "style": "ToolBar", "layout": "pack", "side": "top",
+            "contents": [
+              { "style": "ToolItem", "icon": "Debug" },
+              { "style": "ToolItem", "icon": "SaveAll", "label": "Ctrl+S" },
+              { "style": "ToolItem", "icon": "Stop" }
+            ]
+          },
+          { "style": "ToolBar", "layout": "pack", "side": "bottom",
+            "contents": [
+              { "style": "ToolItem", "icon": "Stop", "label": "Status Line" }
+            ]
+          },
+          { "style": "ToolBar", "layout": "pack", "side": "left",
+            "contents": [
+              { "style": "ToolItem", "icon": "Debug" },
+              { "style": "ToolItem", "icon": "SaveAll", "label": "Ctrl+S" },
+              { "style": "ToolItem", "icon": "Stop" }
+            ]
+          },
+          { "style": "EditorArea", "layout": "label", "side": "center", "label": "Editor Area" }
+    ]
+}

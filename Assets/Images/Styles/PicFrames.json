@@ -1,0 +1,17 @@
+{
+  "imagePath": "PicFrameScaled.png",
+  "name": "Picture Frames",
+  "Styles": {
+    "Outer Frame": {
+       "srcX": 0, "srcY": 0, "srcW": 443, "srcH": 411,
+       "lm": 0, "tm": 0, "rm": 0, "bm": 0,
+       "lw": 91, "th": 90, "rw": 90, "bh": 91
+    },
+    "Name Plate": {
+       "srcX": 0, "srcY": 0, "srcW": 443, "srcH": 411,
+       "lm": 0, "tm": 0, "rm": 0, "bm": 0,
+       "lw": 91, "th": 90, "rw": 90, "bh": 91
+    }
+
+  }
+}
